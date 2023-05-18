@@ -1,6 +1,7 @@
 import React from "react";
-import CardVideo from "./Componentes/CardVideo";
-import "./styles.css";
+import CardVideo from "./Componentes/CardVideo/CardVideo";
+import { ContainerApp } from "./AppStyle";
+// import "./styles.css";
 
 export default function App() {
   const card1 = {
@@ -10,7 +11,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <ContainerApp>
       <div className="tela-inteira">
         <header>
           <h1>LabeTube</h1>
@@ -42,6 +43,6 @@ export default function App() {
           <h4>Oi! Eu moro no footer!</h4>
         </footer>
       </div>
-    </div>
+    </ContainerApp>
   );
 }
