@@ -50,8 +50,4 @@ export const ContainerApp = styled.styled.div`
         display: flex;
         padding: 0 10px;
     }
-
-    h4 {
-        margin-left: 20px;
-    }
 `;

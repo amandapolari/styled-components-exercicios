@@ -13,4 +13,7 @@ export const ContainerCardVideo = styled.styled.div`
         width: 100%;
         height: 200px;
     }
+    h4 {
+        margin-left: 20px;
+    }
 `;
